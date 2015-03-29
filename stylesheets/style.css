@@ -67,14 +67,8 @@ ul {
 }
 
 .tags li {
-  -moz-box-shadow: 0px 1px 2px #777;
-  -webkit-box-shadow: 1px 1px 2px #777;
   box-shadow: 0px 1px 2px #777;
-
-  -moz-border-radius: 0.25em;
-  -webkit-border-radius: 0.25em;
   border-radius: 0.25em;
-
   border: 1px solid #eee;
   background-color: #efefef;
   padding: 0.40em;
@@ -140,21 +134,16 @@ ul {
 
 .spaced-out {
   line-height: 1.5;
+  margin: .1em .5em;
 }
 
 .column-wrapper {
     width: 100%;
     margin-bottom: 2em;
-	display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
     display: flex;
 }
 
 .column {
-	-webkit-flex: 1;
-	-moz-flex: 1;
-	-ms-flex: 1;
 	flex: 1;
 }
 
