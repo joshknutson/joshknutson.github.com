@@ -147,7 +147,7 @@ ul {
 	flex: 1;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 41em) and (min-width: 1em) {
     .column-wrapper  {
         display: block;
     }
