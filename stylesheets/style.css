@@ -147,6 +147,12 @@ ul {
 	flex: 1;
 }
 
+@media only screen and (max-width: 500px) {
+    .column-wrapper  {
+        display: block;
+    }
+}
+
 
 em {
   font-style: inherit;
